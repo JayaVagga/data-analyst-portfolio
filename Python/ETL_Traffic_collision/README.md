@@ -65,30 +65,30 @@ Sampling (`fraction=0.05`) was applied **only for visualisations** when converti
 
 | # | Section | What It Covers |
 |---|---|---|
-| 1 | [Data Preparation](traffic_analysis/01_data_preparation.md) | SparkSession setup, CSV loading, schema inspection, sampling strategy |
-| 2 | [Data Cleaning](traffic_analysis/02_data_cleaning.md) | Missing value treatment, type conversion, duplicate removal, IQR outlier detection |
+| 1 | [Data Preparation](01_data_preparation.md) | SparkSession setup, CSV loading, schema inspection, sampling strategy |
+| 2 | [Data Cleaning](02_data_cleaning.md) | Missing value treatment, type conversion, duplicate removal, IQR outlier detection |
 
 ### Exploratory Data Analysis
 
 | # | Section | Analysis Type | Key Finding |
 |---|---|---|---|
-| 3 | [EDA Setup & Variable Classification](traffic_analysis/03_eda_overview.md) | Setup | StringIndexer pipeline, variable taxonomy |
-| 4 | [Collision Severity Distribution](traffic_analysis/04_eda_severity.md) | Univariate | Property damage dominates; fatal collisions < 1% |
-| 5 | [Weather Conditions](traffic_analysis/05_eda_weather.md) | Segmented Univariate | 80%+ in clear weather — volume drives frequency |
-| 6 | [Victim Age Distribution](traffic_analysis/06_eda_victim_age.md) | Univariate | Ages 20–40 peak — working commuters most at risk |
-| 7 | [Severity vs Number of Victims](traffic_analysis/07_eda_severity_victims.md) | Bivariate | Higher severity → more victims, wider spread |
-| 8 | [Weather vs Collision Severity](traffic_analysis/08_eda_weather_severity.md) | Bivariate | Clear weather produces most severe collisions |
-| 9 | [Lighting vs Collision Severity](traffic_analysis/09_eda_lighting_severity.md) | Bivariate Heatmap | Unlit conditions amplify severity rates |
-| 10 | [Weekday Collision Trends](traffic_analysis/10_eda_weekday_trends.md) | Time-Series | Friday peak (~104K); Sunday lowest (~65K) |
-| 11 | [Spatial Distribution](traffic_analysis/11_eda_spatial.md) | Spatial | Urban corridors dominate; I-5 / I-405 hotspots |
-| 12 | [Collision Trends Over Time](traffic_analysis/12_eda_time_trends.md) | Time-Series (3 scales) | Peak ~2001–05; COVID 2020 drop; 15:00–18:00 daily peak |
+| 3 | [EDA Setup & Variable Classification](03_eda_overview.md) | Setup | StringIndexer pipeline, variable taxonomy |
+| 4 | [Collision Severity Distribution](04_eda_severity.md) | Univariate | Property damage dominates; fatal collisions < 1% |
+| 5 | [Weather Conditions](05_eda_weather.md) | Segmented Univariate | 80%+ in clear weather — volume drives frequency |
+| 6 | [Victim Age Distribution](06_eda_victim_age.md) | Univariate | Ages 20–40 peak — working commuters most at risk |
+| 7 | [Severity vs Number of Victims](07_eda_severity_victims.md) | Bivariate | Higher severity → more victims, wider spread |
+| 8 | [Weather vs Collision Severity](08_eda_weather_severity.md) | Bivariate | Clear weather produces most severe collisions |
+| 9 | [Lighting vs Collision Severity](09_eda_lighting_severity.md) | Bivariate Heatmap | Unlit conditions amplify severity rates |
+| 10 | [Weekday Collision Trends](10_eda_weekday_trends.md) | Time-Series | Friday peak (~104K); Sunday lowest (~65K) |
+| 11 | [Spatial Distribution](11_eda_spatial.md) | Spatial | Urban corridors dominate; I-5 / I-405 hotspots |
+| 12 | [Collision Trends Over Time](12_eda_time_trends.md) | Time-Series (3 scales) | Peak ~2001–05; COVID 2020 drop; 15:00–18:00 daily peak |
 
 ### ETL & Conclusions
 
 | # | Section | What It Covers |
 |---|---|---|
-| 13 | [ETL Queries (PySpark SQL)](traffic_analysis/13_etl_queries.md) | Top counties, peak month, fatal %, dangerous hours, road/lighting conditions |
-| 14 | [Conclusions & Recommendations](traffic_analysis/14_conclusions.md) | 6 strategic recommendation categories + predictive modelling roadmap |
+| 13 | [ETL Queries (PySpark SQL)](13_etl_queries.md) | Top counties, peak month, fatal %, dangerous hours, road/lighting conditions |
+| 14 | [Conclusions & Recommendations](14_conclusions.md) | 6 strategic recommendation categories + predictive modelling roadmap |
 
 > Each section page shows the question, full code, result table, insight, and actionable outcome.
 
@@ -116,7 +116,7 @@ california-traffic-analysis/
 ├── README.md                                    <- This page
 ├── etl_traffic_data_analysis.ipynb              <- Full Jupyter notebook
 │
-├── traffic_analysis/                            <- One page per section
+├──                             <- One page per section
 │   ├── 01_data_preparation.md
 │   ├── 02_data_cleaning.md
 │   ├── 03_eda_overview.md

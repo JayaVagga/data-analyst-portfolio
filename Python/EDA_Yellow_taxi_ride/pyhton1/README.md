@@ -53,15 +53,15 @@ This project performs end-to-end EDA on 2023 NYC Yellow Taxi trip records — 12
 
 | # | Section | What It Covers |
 |---|---|---|
-| 1 | [Data Preparation](nyc_analysis/01_data_preparation.md) | Parquet loading, 8% stratified sampling strategy, dataset schema |
-| 2 | [Data Cleaning](nyc_analysis/02_data_cleaning.md) | Column fixes, missing values, negative values, outlier removal |
-| 3 | [Temporal Analysis](nyc_analysis/03_temporal_analysis.md) | Hourly, daily, monthly pickup trends |
-| 4 | [Financial Analysis](nyc_analysis/04_financial_analysis.md) | Revenue trends, quarterly split, fare/tip correlations, payment types |
-| 5 | [Geographical Analysis](nyc_analysis/05_geographical_analysis.md) | Zone shapefile, choropleth pickup density map |
-| 6 | [Operational Efficiency](nyc_analysis/06_operational_efficiency.md) | Trips per hour scaled, weekday vs weekend, top zones, night operations |
-| 7 | [Pricing Strategy](nyc_analysis/07_pricing_strategy.md) | Fare per mile per passenger, hourly/daily fare, vendor comparison, distance tiers |
-| 8 | [Customer Experience](nyc_analysis/08_customer_experience.md) | Tip % by distance/passenger/hour, KDE comparison, surcharge prevalence |
-| 9 | [Conclusions & Recommendations](nyc_analysis/09_conclusions.md) | Routing, positioning, pricing strategy — all actionable with data evidence |
+| 1 | [Data Preparation](01_data_preparation.md) | Parquet loading, 8% stratified sampling strategy, dataset schema |
+| 2 | [Data Cleaning](02_data_cleaning.md) | Column fixes, missing values, negative values, outlier removal |
+| 3 | [Temporal Analysis](03_temporal_analysis.md) | Hourly, daily, monthly pickup trends |
+| 4 | [Financial Analysis](04_financial_analysis.md) | Revenue trends, quarterly split, fare/tip correlations, payment types |
+| 5 | [Geographical Analysis](05_geographical_analysis.md) | Zone shapefile, choropleth pickup density map |
+| 6 | [Operational Efficiency](06_operational_efficiency.md) | Trips per hour scaled, weekday vs weekend, top zones, night operations |
+| 7 | [Pricing Strategy](07_pricing_strategy.md) | Fare per mile per passenger, hourly/daily fare, vendor comparison, distance tiers |
+| 8 | [Customer Experience](08_customer_experience.md) | Tip % by distance/passenger/hour, KDE comparison, surcharge prevalence |
+| 9 | [Conclusions & Recommendations](09_conclusions.md) | Routing, positioning, pricing strategy — all actionable with data evidence |
 
 > Each section shows the full Python code, the chart produced, and a Result / Insight / Outcome breakdown.
 
@@ -101,7 +101,7 @@ nyc-taxi-eda-2023/
 ├── README.md                            <- This page
 ├── EDA_NYC_Taxi_Analysis.ipynb          <- Full Jupyter notebook (35 charts)
 │
-├── nyc_analysis/                        <- One page per section
+├──                         <- One page per section
 │   ├── 01_data_preparation.md
 │   ├── 02_data_cleaning.md
 │   ├── 03_temporal_analysis.md

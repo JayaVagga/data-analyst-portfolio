@@ -41,11 +41,11 @@ This project transforms raw agricultural business data into **4 interactive Exce
 
 | # | Section | What It Covers |
 |---|---|---|
-| 1 | [Dataset Description](agri_analysis/01_dataset_description.md) | All three tables, field definitions, segmentation logic, subsidy rules |
-| 2 | [Business Questions & Excel Analysis](agri_analysis/02_business_questions.md) | All 19 business questions answered with methods and findings |
-| 3 | [Key Insights](agri_analysis/03_key_insights.md) | 7 major analytical findings backed by data |
-| 4 | [Dashboard Details](agri_analysis/04_dashboards.md) | All 4 dashboards — KPIs, charts, slicer setup, how to interact |
-| 5 | [Recommendations](agri_analysis/05_recommendations.md) | 6 actionable business recommendations with priority ranking |
+| 1 | [Dataset Description](01_dataset_description.md) | All three tables, field definitions, segmentation logic, subsidy rules |
+| 2 | [Business Questions & Excel Analysis](02_business_questions.md) | All 19 business questions answered with methods and findings |
+| 3 | [Key Insights](03_key_insights.md) | 7 major analytical findings backed by data |
+| 4 | [Dashboard Details](04_dashboards.md) | All 4 dashboards — KPIs, charts, slicer setup, how to interact |
+| 5 | [Recommendations](05_recommendations.md) | 6 actionable business recommendations with priority ranking |
 
 ---
 
@@ -298,7 +298,7 @@ agri-excel-dashboard/
 ├── financial_dashboard.png            ← Financial Performance Dashboard ✅
 ├── operational_dashboard.png          ← Operational Performance Dashboard ✅
 │
-├── agri_analysis/                     ← Detailed analysis section pages
+├──                      ← Detailed analysis section pages
 │   ├── 01_dataset_description.md      ← Full dataset schema and business logic
 │   ├── 02_business_questions.md       ← All 19 Q&A with findings
 │   ├── 03_key_insights.md             ← 7 major insights with supporting data

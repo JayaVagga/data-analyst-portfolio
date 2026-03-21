@@ -58,15 +58,15 @@ This cost-sharing structure makes the data analytically rich — it holds a stor
 
 | # | Section | What It Covers |
 |---|---|---|
-| 2 | [SELECT Queries](analysis/02_select_queries.md) | Geographic scope, state-level coverage totals |
-| 3 | [Filtering Data — WHERE](analysis/03_filtering_where.md) | Year filters, rural population targets, subsidy structure |
-| 4 | [Aggregation — GROUP BY](analysis/04_aggregation_groupby.md) | Land area trends, active districts, premium breakdown by state |
-| 5 | [Sorting — ORDER BY](analysis/05_sorting_orderby.md) | Population rankings, coverage rates, penetration metrics |
-| 6 | [String Functions](analysis/06_string_functions.md) | State abbreviations, district name pattern matching |
-| 7 | [Joins](analysis/07_joins.md) | Active district filtering (INNER JOIN), peak premium context, population + insurance combined (LEFT JOIN) |
-| 8 | [Subqueries](analysis/08_subqueries.md) | National average comparison, benchmark filtering, 3-level nested subquery |
-| 9 | [Data Integrity — Constraints & FKs](analysis/09_data_integrity.md) | Normalised reference tables, FK with referential actions |
-| 10 | [UPDATE and DELETE](analysis/10_update_delete.md) | DML with before/after verification pattern |
+| 2 | [SELECT Queries](02_select_queries.md) | Geographic scope, state-level coverage totals |
+| 3 | [Filtering Data — WHERE](03_filtering_where.md) | Year filters, rural population targets, subsidy structure |
+| 4 | [Aggregation — GROUP BY](04_aggregation_groupby.md) | Land area trends, active districts, premium breakdown by state |
+| 5 | [Sorting — ORDER BY](05_sorting_orderby.md) | Population rankings, coverage rates, penetration metrics |
+| 6 | [String Functions](06_string_functions.md) | State abbreviations, district name pattern matching |
+| 7 | [Joins](07_joins.md) | Active district filtering (INNER JOIN), peak premium context, population + insurance combined (LEFT JOIN) |
+| 8 | [Subqueries](08_subqueries.md) | National average comparison, benchmark filtering, 3-level nested subquery |
+| 9 | [Data Integrity — Constraints & FKs](09_data_integrity.md) | Normalised reference tables, FK with referential actions |
+| 10 | [UPDATE and DELETE](10_update_delete.md) | DML with before/after verification pattern |
 
 > Each section page shows the question, the full SQL query, and the business reasoning behind every design decision.
 
@@ -117,7 +117,7 @@ pmfby-sql-project/
 ├── README.md                        <- This page
 ├── pmfby_analysis.sql               <- Full raw SQL file (all 26 queries)
 │
-├── analysis/                        <- One page per section (click links above)
+├──                         <- One page per section (click links above)
 │   ├── 02_select_queries.md
 │   ├── 03_filtering_where.md
 │   ├── 04_aggregation_groupby.md
