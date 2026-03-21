@@ -39,18 +39,18 @@ This project analyses 15,398 logistics orders across 6 plants, 2 carriers, and 1
 
 | Part | Section | What It Covers |
 |---|---|---|
-| 1 | [Schema Setup](sc_analysis/01_schema_setup.md) | 8 tables, PKs, FKs, constraints, design decisions |
-| 2 | [Data Loading & Cleaning](sc_analysis/02_data_loading_cleaning.md) | Staging pattern, date conversion, numeric cleaning, flagging |
-| 3 | [Exploratory Data Analysis](sc_analysis/03_exploratory_analysis.md) | Q1–Q5: totals, date range, carriers, service levels |
-| 4 | [Data Validation](sc_analysis/04_data_validation.md) | Q6–Q10: invalid weights, unmapped products, unroutable orders |
-| 5 | [Aggregations](sc_analysis/05_aggregations.md) | Q11–Q15: orders by plant, customer, carrier, service level |
-| 6 | [Joins & Route Matching](sc_analysis/06_joins_route_matching.md) | Q16–Q20: 5-condition freight JOIN, unroutable orders, lane match rates |
-| 7 | [Window Functions & Rankings](sc_analysis/07_window_functions.md) | Q21–Q25: RANK, running totals, cost spread analysis |
-| 8 | [Cost Calculations](sc_analysis/08_cost_calculations.md) | Q26–Q30: GREATEST() cost formula, plant rankings, freight vs warehouse split |
-| 9 | [Constraint & Compliance Checks](sc_analysis/09_constraint_checks.md) | Q31–Q35: capacity violations, VMI violations, weight band checks |
-| 10 | [Optimization Simulation](sc_analysis/10_optimization_simulation.md) | Q36–Q40: relaxed-carrier JOIN, cheapest route selection, $58K savings |
-| 11 | [Time Series & Trend Analytics](sc_analysis/11_time_series.md) | Q41–Q45: monthly trends, 3-month moving avg, seasonality, weight bands |
-| 12 | [Strategic Business Insights](sc_analysis/12_strategic_insights.md) | Q46–Q50: plant cost ranking, carrier efficiency, port risk, speed premium |
+| 1 | [Schema Setup](01_schema_setup.md) | 8 tables, PKs, FKs, constraints, design decisions |
+| 2 | [Data Loading & Cleaning](02_data_loading_cleaning.md) | Staging pattern, date conversion, numeric cleaning, flagging |
+| 3 | [Exploratory Data Analysis](03_exploratory_analysis.md) | Q1–Q5: totals, date range, carriers, service levels |
+| 4 | [Data Validation](04_data_validation.md) | Q6–Q10: invalid weights, unmapped products, unroutable orders |
+| 5 | [Aggregations](05_aggregations.md) | Q11–Q15: orders by plant, customer, carrier, service level |
+| 6 | [Joins & Route Matching](06_joins_route_matching.md) | Q16–Q20: 5-condition freight JOIN, unroutable orders, lane match rates |
+| 7 | [Window Functions & Rankings](07_window_functions.md) | Q21–Q25: RANK, running totals, cost spread analysis |
+| 8 | [Cost Calculations](08_cost_calculations.md) | Q26–Q30: GREATEST() cost formula, plant rankings, freight vs warehouse split |
+| 9 | [Constraint & Compliance Checks](09_constraint_checks.md) | Q31–Q35: capacity violations, VMI violations, weight band checks |
+| 10 | [Optimization Simulation](10_optimization_simulation.md) | Q36–Q40: relaxed-carrier JOIN, cheapest route selection, $58K savings |
+| 11 | [Time Series & Trend Analytics](11_time_series.md) | Q41–Q45: monthly trends, 3-month moving avg, seasonality, weight bands |
+| 12 | [Strategic Business Insights](12_strategic_insights.md) | Q46–Q50: plant cost ranking, carrier efficiency, port risk, speed premium |
 
 > Each section page shows the question, the full SQL, and the reasoning behind every design choice.
 
@@ -104,7 +104,7 @@ supply-chain-sql-project/
 ├── README.md                              <- This page
 ├── supply_chain_analysis.sql              <- Full SQL file (50 queries)
 │
-├── sc_analysis/                           <- One page per section
+├──                            <- One page per section
 │   ├── 01_schema_setup.md
 │   ├── 02_data_loading_cleaning.md
 │   ├── 03_exploratory_analysis.md
