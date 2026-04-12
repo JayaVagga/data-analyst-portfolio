@@ -66,11 +66,11 @@ This Power BI report transforms raw shipment data into a **7-page interactive an
 
 | # | Section | What It Covers |
 |---|---|---|
-| 1 | [Dataset Description](pbi_analysis/01_project_overview.md) | All 3 Excel sheets, 22 products with costs, 25 salespeople across 4 teams, 6 geographies |
-| 2 | [Report Pages](pbi_analysis/02_report_pages.md) | All 7 pages — visuals, fields, actual data tables, monthly sales by month |
-| 3 | [DAX Measures](pbi_analysis/03_dax_measures.md) | All 30 measures with DAX code — SUMX, DATEADD, LASTDATE, SWITCH, DIVIDE |
-| 4 | [Key Insights](pbi_analysis/04_key_insights.md) | 7 business insights with actual numbers from the dataset |
-| 5 | [Power BI Techniques](pbi_analysis/05_powerbi_techniques.md) | Star schema, measure table, bookmarks, disconnected slicer, time intelligence |
+| 1 | [Dataset Description](01_project_overview.md) | All 3 Excel sheets, 22 products with costs, 25 salespeople across 4 teams, 6 geographies |
+| 2 | [Report Pages](02_report_pages.md) | All 7 pages — visuals, fields, actual data tables, monthly sales by month |
+| 3 | [DAX Measures](03_dax_measures.md) | All 30 measures with DAX code — SUMX, DATEADD, LASTDATE, SWITCH, DIVIDE |
+| 4 | [Key Insights](04_key_insights.md) | 7 business insights with actual numbers from the dataset |
+| 5 | [Power BI Techniques](05_powerbi_techniques.md) | Star schema, measure table, bookmarks, disconnected slicer, time intelligence |
 
 ---
 
