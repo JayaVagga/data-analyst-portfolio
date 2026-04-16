@@ -40,25 +40,10 @@ This Power BI report transforms raw shipment data into a **7-page interactive an
 > 📷 **To add screenshots:** Open `sales_project_power_bi.pbix` in Power BI Desktop, screenshot each page, and upload to the repo root with the filenames shown. They will render automatically.
 
 ### Main Sales Report Dashboard
-![Sales Report Dashboard](sales_report.png)
+![Sales Report Dashboard](reports/sales_report.jpeg)
 
-### Page 1 — KPI Summary
-![KPI Summary](page1_kpi_summary.png)
-
-### Page 2 — MoM Sales Analysis
-![MoM Sales](page2_mom_sales.png)
-
-### Page 3 — Operational & Salesperson Analysis
-![Operational](page3_operational.png)
-
-### Page 4 — Full Salesperson Scorecard
-![Salesperson Scorecard](page4_salesperson.png)
-
-### Page 5 — MoM Boxes & Shipments
-![MoM Operations](page5_mom_operations.png)
-
-### Page 6 — MoM Costs & Profit
-![MoM Financials](page6_mom_financials.png)
+### Interactive Dashboard
+![Demo](reports/sales_project_power_bii.pbix)
 
 ---
 
