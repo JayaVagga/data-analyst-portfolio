@@ -50,7 +50,7 @@ NER_Recipe_CRF/
 ├── Identifying_Key_Entities_in_Recipe_Data.pdf    ← Detailed analysis report
 ├── crf_model.pkl                              ← Saved trained CRF model
 │
-├── analysis/                                  ← Section-by-section breakdown
+├──                                   ← Section-by-section breakdown
 │   ├── 01_data_description.md
 │   ├── 02_data_ingestion_preparation.md
 │   ├── 03_train_validation_split.md
@@ -73,15 +73,15 @@ NER_Recipe_CRF/
 
 | # | Section | What's Inside |
 |---|---------|---------------|
-| 01 | [Data Description](analysis/01_data_description.md) | Dataset structure, JSON schema, entity classes, libraries, business context |
-| 02 | [Data Ingestion & Preparation](analysis/02_data_ingestion_preparation.md) | JSON loading, tokenisation, label validation, mismatch detection, 5-row removal |
-| 03 | [Train-Validation Split](analysis/03_train_validation_split.md) | 70/30 split, token counts, label consistency check across splits |
-| 04 | [Exploratory Data Analysis](analysis/04_exploratory_data_analysis.md) | Class distribution (74.8% imbalance), top ingredients/units, train-val comparison |
-| 05 | [Feature Extraction for CRF](analysis/05_feature_extraction.md) | 20+ features: spaCy linguistic, keyword sets, regex patterns, contextual window ±1 |
-| 06 | [Model Building & Training](analysis/06_model_building_training.md) | CRF hyperparameters, 100% training accuracy, confusion matrix, model saved |
-| 07 | [Prediction & Evaluation](analysis/07_prediction_evaluation.md) | 99.83% validation accuracy, classification report, confusion matrix, per-label metrics |
-| 08 | [Error Analysis](analysis/08_error_analysis.md) | All 5 misclassifications investigated — root cause, pattern, business risk |
-| 09 | [Conclusions & Key Takeaways](analysis/09_conclusions.md) | Final verdict, business value, limitations, recommendations |
+| 01 | [Data Description](01_data_description.md) | Dataset structure, JSON schema, entity classes, libraries, business context |
+| 02 | [Data Ingestion & Preparation](02_data_ingestion_preparation.md) | JSON loading, tokenisation, label validation, mismatch detection, 5-row removal |
+| 03 | [Train-Validation Split](03_train_validation_split.md) | 70/30 split, token counts, label consistency check across splits |
+| 04 | [Exploratory Data Analysis](04_exploratory_data_analysis.md) | Class distribution (74.8% imbalance), top ingredients/units, train-val comparison |
+| 05 | [Feature Extraction for CRF](05_feature_extraction.md) | 20+ features: spaCy linguistic, keyword sets, regex patterns, contextual window ±1 |
+| 06 | [Model Building & Training](06_model_building_training.md) | CRF hyperparameters, 100% training accuracy, confusion matrix, model saved |
+| 07 | [Prediction & Evaluation](07_prediction_evaluation.md) | 99.83% validation accuracy, classification report, confusion matrix, per-label metrics |
+| 08 | [Error Analysis](08_error_analysis.md) | All 5 misclassifications investigated — root cause, pattern, business risk |
+| 09 | [Conclusions & Key Takeaways](09_conclusions.md) | Final verdict, business value, limitations, recommendations |
 
 ---
 
