@@ -50,7 +50,7 @@ Differences at the 6th decimal place. No model meaningfully outperforms another 
 **RMSE Comparison:**
 All models produce RMSE ≈ 0.01046. Consistent, stable predictions with no extreme spikes.
 
-> ✅ **Conclusion:** The baseline linear model was already highly optimal. Regularisation did not improve predictive power — it improved **stability and interpretability**.
+> **Conclusion:** The baseline linear model was already highly optimal. Regularisation did not improve predictive power — it improved **stability and interpretability**.
 
 ---
 

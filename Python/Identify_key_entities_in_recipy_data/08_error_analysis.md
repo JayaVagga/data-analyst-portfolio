@@ -49,12 +49,12 @@ error_data = [
 
 | Business Function | Model Suitability | Accuracy | Risk |
 |-------------------|-------------------|----------|------|
-| Ingredient auto-tagging | ✅ Excellent | 100% F1 | 🟢 Zero — zero ingredient errors |
-| Quantity extraction | ✅ Very good | 99.51% | 🟢 Low — 2 errors in 411 tokens |
-| Unit detection | ✅ Very good | 99.16% | 🟢 Low — 3 errors in 358 tokens |
-| Recipe search & filtering | ✅ Production-ready | — | 🟢 Near-zero error rate on searchable fields |
-| Portion scaling | ✅ Production-ready | — | 🟢 Quantity+unit accuracy sufficient for scaling |
-| Manual tagging replacement | ✅ ~99.83% automation | — | 🟢 Only 0.17% of tokens need human review |
+| Ingredient auto-tagging | Excellent | 100% F1 | Zero — zero ingredient errors |
+| Quantity extraction | Very good | 99.51% | Low — 2 errors in 411 tokens |
+| Unit detection | Very good | 99.16% | Low — 3 errors in 358 tokens |
+| Recipe search & filtering | Production-ready | — | Near-zero error rate on searchable fields |
+| Portion scaling | Production-ready | — | Quantity+unit accuracy sufficient for scaling |
+| Manual tagging replacement | ~99.83% automation | — | Only 0.17% of tokens need human review |
 
 ---
 

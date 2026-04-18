@@ -17,7 +17,7 @@ df.isnull().sum()
 
 **Result:** 0 missing values across all 23 columns.
 
-✅ No imputation required. Dataset is fully complete — this improves model stability and avoids bias introduced by artificial data replacement.
+No imputation required. Dataset is fully complete — this improves model stability and avoids bias introduced by artificial data replacement.
 
 ---
 

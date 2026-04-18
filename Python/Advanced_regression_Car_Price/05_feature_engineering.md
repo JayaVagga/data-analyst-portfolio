@@ -122,7 +122,7 @@ X_test_scaled  = scaler.transform(X_test)
 ```
 **Critical for Ridge & Lasso:** Both penalise coefficient magnitude. Without scaling, variables with larger numeric ranges dominate the penalty term — producing unfair regularisation. Scaling ensures **equal treatment across all predictors**.
 
-> ⚠️ Scaler is **fit only on training data** and applied to test data — preventing data leakage.
+> Scaler is **fit only on training data** and applied to test data — preventing data leakage.
 
 ---
 

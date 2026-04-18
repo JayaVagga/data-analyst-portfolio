@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 What This Project Demonstrates
+##  What This Project Demonstrates
 
 | Skill Area | What I Did |
 |------------|-----------|
@@ -22,7 +22,7 @@
 
 ---
 
-## 📊 Results at a Glance
+##  Results at a Glance
 
 | Model | Test R² | Test MAE | Test RMSE | Features Used |
 |-------|---------|----------|-----------|---------------|
@@ -34,7 +34,7 @@
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 RR_Car_Price_Prediction/
@@ -43,7 +43,7 @@ RR_Car_Price_Prediction/
 ├── RR_Car_Price_Prediction.ipynb         ← Full solution notebook
 ├── RR_Car_Price_Prediction_Report.pdf    ← Detailed analysis report
 │
-├── analysis/                             ← Section-by-section breakdown
+├──                              ← Section-by-section breakdown
 │   ├── 01_data_understanding.md
 │   ├── 02_preliminary_analysis.md
 │   ├── 03_correlation_analysis.md
@@ -61,26 +61,26 @@ RR_Car_Price_Prediction/
 
 ---
 
-## 📚 Analysis — Section by Section
+## Analysis — Section by Section
 
 *Click any section to read the full analysis, code, and insights.*
 
 | # | Section | What's Inside |
 |---|---------|---------------|
-| 01 | [Data Understanding](analysis/01_data_understanding.md) | Dataset structure, feature inventory, business context |
-| 02 | [Preliminary Analysis & Distributions](analysis/02_preliminary_analysis.md) | Missing value checks, numerical & categorical distributions, class imbalance fixes |
-| 03 | [Correlation Analysis](analysis/03_correlation_analysis.md) | Pearson correlation heatmap, categorical mean-price analysis, multicollinearity signals |
-| 04 | [Outlier Handling](analysis/04_outlier_handling.md) | IQR-based detection, strategy rationale, why outliers were preserved |
-| 05 | [Feature Engineering](analysis/05_feature_engineering.md) | 7 derived features, encoding strategy, train-test split, scaling pipeline |
-| 06 | [Baseline Linear Regression](analysis/06_baseline_linear_regression.md) | OLS model, R²=0.92 result, residual diagnostics, assumption validation |
-| 07 | [Ridge Regression](analysis/07_ridge_regression.md) | L2 regularisation, alpha tuning via GridSearchCV, R² vs alpha curve |
-| 08 | [Lasso Regression](analysis/08_lasso_regression.md) | L1 regularisation, feature elimination, 5 coefficients zeroed out |
-| 09 | [Model Comparison](analysis/09_model_comparison.md) | Side-by-side metrics, coefficient comparison, when to use which model |
-| 10 | [Conclusions & Key Takeaways](analysis/10_conclusions.md) | Business insights, pricing drivers, modelling principles validated |
+| 01 | [Data Understanding](01_data_understanding.md) | Dataset structure, feature inventory, business context |
+| 02 | [Preliminary Analysis & Distributions](02_preliminary_analysis.md) | Missing value checks, numerical & categorical distributions, class imbalance fixes |
+| 03 | [Correlation Analysis](03_correlation_analysis.md) | Pearson correlation heatmap, categorical mean-price analysis, multicollinearity signals |
+| 04 | [Outlier Handling](04_outlier_handling.md) | IQR-based detection, strategy rationale, why outliers were preserved |
+| 05 | [Feature Engineering](05_feature_engineering.md) | 7 derived features, encoding strategy, train-test split, scaling pipeline |
+| 06 | [Baseline Linear Regression](06_baseline_linear_regression.md) | OLS model, R²=0.92 result, residual diagnostics, assumption validation |
+| 07 | [Ridge Regression](07_ridge_regression.md) | L2 regularisation, alpha tuning via GridSearchCV, R² vs alpha curve |
+| 08 | [Lasso Regression](08_lasso_regression.md) | L1 regularisation, feature elimination, 5 coefficients zeroed out |
+| 09 | [Model Comparison](09_model_comparison.md) | Side-by-side metrics, coefficient comparison, when to use which model |
+| 10 | [Conclusions & Key Takeaways](10_conclusions.md) | Business insights, pricing drivers, modelling principles validated |
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
 ### What Drives Used Car Prices?
 
@@ -126,7 +126,7 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 ---
 
-## 🚀 Run Locally
+## Run Locally
 
 ```bash
 # Clone the repo
@@ -142,7 +142,7 @@ jupyter notebook RR_Car_Price_Prediction.ipynb
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Vagga Jayalakshmi**  
 [GitHub](https://github.com/<your-username>) · [LinkedIn](https://linkedin.com/in/<your-profile>)

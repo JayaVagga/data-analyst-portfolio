@@ -69,10 +69,10 @@ plt.show()
 
 | Assumption | Status | Evidence |
 |------------|--------|----------|
-| **Linearity** | ✅ Satisfied | Residuals randomly scattered around zero; no curvature |
-| **Homoscedasticity** | ✅ Satisfied | No funnel-shaped pattern; log transformation stabilised variance |
-| **Normality of Residuals** | ✅ Reasonably satisfied | Approximately bell-shaped; minor tails acceptable at n=15,915 |
-| **Multicollinearity** | ⚠️ Moderate | VIF elevated for engine-related features; not severe enough to destabilise OLS |
+| **Linearity** | Satisfied | Residuals randomly scattered around zero; no curvature |
+| **Homoscedasticity** | Satisfied | No funnel-shaped pattern; log transformation stabilised variance |
+| **Normality of Residuals** | Reasonably satisfied | Approximately bell-shaped; minor tails acceptable at n=15,915 |
+| **Multicollinearity** | Moderate | VIF elevated for engine-related features; not severe enough to destabilise OLS |
 
 ```python
 # VIF Check

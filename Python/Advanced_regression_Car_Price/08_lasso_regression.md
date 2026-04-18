@@ -24,7 +24,7 @@ Loss = RSS + α × Σ|βᵢ|
 | | Ridge | Lasso |
 |--|-------|-------|
 | Penalty type | L2 (squared) | L1 (absolute) |
-| Feature selection | ❌ Keeps all | ✅ Eliminates weak features |
+| Feature selection |  Keeps all | Eliminates weak features |
 | Best for | Multicollinearity | Sparse, interpretable models |
 
 ---

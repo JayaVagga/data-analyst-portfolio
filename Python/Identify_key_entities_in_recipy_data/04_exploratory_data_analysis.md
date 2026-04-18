@@ -93,12 +93,12 @@ unit_freq = Counter(unit_tokens).most_common(10)
 
 | Metric | Training | Validation | Consistent? |
 |--------|----------|------------|-------------|
-| Total tokens | 7,114 | 2,876 | ✅ Yes — ≈70/30 split |
-| Top ingredient | powder (129) | powder (54) | ✅ Yes — same rank |
-| 2nd ingredient | Salt (102) | Salt (47) | ✅ Yes — same rank |
-| 3rd ingredient | seeds (89) | Oil (39) | ⚠️ Slight variance |
-| Top unit | teaspoon (162) | teaspoon (59) | ✅ Yes — same rank |
-| 2nd unit | cup (136) | cup (~50) | ✅ Yes — same rank |
+| Total tokens | 7,114 | 2,876 | Yes — ≈70/30 split |
+| Top ingredient | powder (129) | powder (54) | Yes — same rank |
+| 2nd ingredient | Salt (102) | Salt (47) | Yes — same rank |
+| 3rd ingredient | seeds (89) | Oil (39) | Slight variance |
+| Top unit | teaspoon (162) | teaspoon (59) | Yes — same rank |
+| 2nd unit | cup (136) | cup (~50) | Yes — same rank |
 
 > **Insight:** The validation set closely mirrors the training distribution — top entities appear in the same rank order across both splits. This confirms `train_test_split` produced a **well-representative validation set with no distributional shift**, supporting reliable generalisation of the trained CRF model.
 

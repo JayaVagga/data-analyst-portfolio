@@ -59,7 +59,7 @@ unique_labels(df)
 # Output: {'ingredient', 'quantity', 'unit'}
 ```
 
-✅ Exactly 3 valid NER classes — no unexpected values found.
+Exactly 3 valid NER classes — no unexpected values found.
 
 ---
 

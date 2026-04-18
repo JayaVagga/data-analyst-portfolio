@@ -58,8 +58,8 @@ print(f"Val labels:   {unique_val}")
 # Both: {'ingredient', 'quantity', 'unit'}
 ```
 
-✅ 3 unique labels confirmed in both `y_train` and `y_val` — consistent with full dataset.
-✅ No label leakage or unseen classes in either split.
+3 unique labels confirmed in both `y_train` and `y_val` — consistent with full dataset.
+No label leakage or unseen classes in either split.
 
 ---
 

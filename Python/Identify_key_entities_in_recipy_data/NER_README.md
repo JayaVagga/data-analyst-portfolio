@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 What This Project Demonstrates
+## What This Project Demonstrates
 
 | Skill Area | What I Did |
 |------------|-----------|
@@ -24,7 +24,7 @@
 
 ---
 
-## 📊 Results at a Glance
+## Results at a Glance
 
 | Metric | Training | Validation |
 |--------|----------|------------|
@@ -40,7 +40,7 @@
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 NER_Recipe_CRF/
@@ -67,7 +67,7 @@ NER_Recipe_CRF/
 
 ---
 
-## 📚 Analysis — Section by Section
+## Analysis — Section by Section
 
 *Click any section to read the full analysis, code, and insights.*
 
@@ -85,18 +85,18 @@ NER_Recipe_CRF/
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
 ### What Drove 99.83% Accuracy?
 
 ```
 Performance drivers (in order of impact):
 
-🔺 Rich feature engineering  → spaCy lemma/POS/dep + custom keyword sets + regex
-🔺 Class weighting           → 0.5× ingredient penalty balanced 74.8% majority class
-🔺 CRF architecture          → sequence-aware; models quantity→unit→ingredient transitions
-🔺 Data cleaning             → 5 annotation errors removed before training
-🔺 Contextual window ±1      → prev/next token features resolve positional ambiguity
+Rich feature engineering  → spaCy lemma/POS/dep + custom keyword sets + regex
+Class weighting           → 0.5× ingredient penalty balanced 74.8% majority class
+CRF architecture          → sequence-aware; models quantity→unit→ingredient transitions
+Data cleaning             → 5 annotation errors removed before training
+Contextual window ±1      → prev/next token features resolve positional ambiguity
 ```
 
 ### Where Did It Fail? (All 5 errors)
@@ -109,11 +109,11 @@ Performance drivers (in order of impact):
 | `pinch` | quantity | unit | Dual-role word — appears as both quantity and unit |
 | `cloves` | quantity | unit | Dual-role word — ambiguous without numeric context |
 
-> ✅ **Zero ingredient tokens were ever misclassified** — the most business-critical class.
+> **Zero ingredient tokens were ever misclassified** — the most business-critical class.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ```python
 # NLP
@@ -145,7 +145,7 @@ joblib.dump(crf, 'crf_model.pkl')
 
 ---
 
-## 🚀 Run Locally
+## Run Locally
 
 ```bash
 # Clone the repository
@@ -162,7 +162,7 @@ jupyter notebook Identifying_Key_Entities_in_Recipe_Data.ipynb
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Vagga Jayalakshmi**  
 [GitHub](https://github.com/<your-username>) · [LinkedIn](https://linkedin.com/in/<your-profile>)
