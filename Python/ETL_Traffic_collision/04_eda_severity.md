@@ -1,6 +1,6 @@
 # EDA 3.1 — Collision Severity Distribution
 
-[← Back to README](../README.md) | [← EDA Overview](03_eda_overview.md)
+[← Back to README](README.md) | [← EDA Overview](03_eda_overview.md)
 
 ---
 

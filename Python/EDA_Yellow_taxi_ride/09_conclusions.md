@@ -1,6 +1,6 @@
 # Section 9 — Conclusions & Strategic Recommendations
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

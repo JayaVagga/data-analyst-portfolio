@@ -1,6 +1,6 @@
 # Section 4 — ETL Queries (PySpark SQL)
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

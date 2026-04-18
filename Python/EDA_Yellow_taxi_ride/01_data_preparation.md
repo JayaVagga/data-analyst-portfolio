@@ -1,6 +1,6 @@
 # Section 1 — Data Preparation & Loading
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

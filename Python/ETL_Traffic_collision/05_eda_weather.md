@@ -1,6 +1,6 @@
 # EDA 3.2 — Weather Conditions During Collisions
 
-[← Back to README](../README.md) | [← EDA Overview](03_eda_overview.md)
+[← Back to README](README.md) | [← EDA Overview](03_eda_overview.md)
 
 ---
 

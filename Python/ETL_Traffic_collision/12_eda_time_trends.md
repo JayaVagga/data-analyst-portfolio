@@ -1,6 +1,6 @@
 # EDA 3.9 — Collision Trends Over Time
 
-[← Back to README](../README.md) | [← EDA Overview](03_eda_overview.md)
+[← Back to README](README.md) | [← EDA Overview](03_eda_overview.md)
 
 ---
 

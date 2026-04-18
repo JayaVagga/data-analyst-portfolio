@@ -1,6 +1,6 @@
 # Section 4 — Financial Analysis
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

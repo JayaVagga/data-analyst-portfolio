@@ -1,6 +1,6 @@
 # EDA 3.4 — Collision Severity vs Number of Victims
 
-[← Back to README](../README.md) | [← EDA Overview](03_eda_overview.md)
+[← Back to README](README.md) | [← EDA Overview](03_eda_overview.md)
 
 ---
 

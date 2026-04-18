@@ -1,6 +1,6 @@
 # EDA 3.6 — Lighting Conditions vs Collision Severity
 
-[← Back to README](../README.md) | [← EDA Overview](03_eda_overview.md)
+[← Back to README](README.md) | [← EDA Overview](03_eda_overview.md)
 
 ---
 

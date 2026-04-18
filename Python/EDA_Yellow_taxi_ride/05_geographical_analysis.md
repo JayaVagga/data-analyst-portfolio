@@ -1,6 +1,6 @@
 # Section 5 — Geographical Analysis
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # Section 8 — Customer Experience & Behaviour
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

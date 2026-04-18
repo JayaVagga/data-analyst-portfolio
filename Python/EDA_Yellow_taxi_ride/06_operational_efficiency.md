@@ -1,6 +1,6 @@
 # Section 6 — Operational Efficiency
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

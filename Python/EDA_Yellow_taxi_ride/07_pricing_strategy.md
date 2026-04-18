@@ -1,6 +1,6 @@
 # Section 7 — Pricing Strategy
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

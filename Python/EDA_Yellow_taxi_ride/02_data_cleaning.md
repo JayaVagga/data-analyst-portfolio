@@ -1,6 +1,6 @@
 # Section 2 — Data Cleaning
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

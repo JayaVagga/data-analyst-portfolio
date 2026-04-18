@@ -1,6 +1,6 @@
 # Section 3 — Exploratory Data Analysis: Setup & Variable Classification
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 
