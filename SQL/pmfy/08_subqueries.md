@@ -1,6 +1,6 @@
 # Section 8 — Subqueries
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

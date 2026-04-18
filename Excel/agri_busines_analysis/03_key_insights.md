@@ -1,6 +1,6 @@
 # Section 3 — Key Insights
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

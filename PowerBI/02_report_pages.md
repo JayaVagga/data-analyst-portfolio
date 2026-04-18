@@ -1,6 +1,6 @@
 # Section 2 — Report Pages
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

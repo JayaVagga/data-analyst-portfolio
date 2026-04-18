@@ -253,6 +253,13 @@ awesome-chocolates-powerbi/
 
 ---
 
+## Author
+
+**Vagga Jayalakshmi**  
+[LinkedIn](https://linkedin.com/in/vagga-jai-1206inn)
+
+---
+
 *Company: Awesome Chocolates (Organic & Wholesome)*
 *Tool: Microsoft Power BI Desktop*
 *Domain: FMCG Sales Analytics — Confectionery, International Distribution*

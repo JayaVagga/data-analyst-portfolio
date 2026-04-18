@@ -1,6 +1,6 @@
 # Section 4 — Key Insights & Business Analysis
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # Section 5 — Sorting Data (ORDER BY)
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

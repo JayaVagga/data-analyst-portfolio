@@ -159,5 +159,12 @@ The two blank queries (Q16, Q18) were the hardest problems in the assignment —
 
 ---
 
+## Author
+
+**Vagga Jayalakshmi**  
+[LinkedIn](https://linkedin.com/in/vagga-jai-1206inn)
+
+---
+
 *Dataset: [National Data and Analytics Platform (NDAP)](https://ndap.niti.gov.in)*  
 *Scheme: [Pradhan Mantri Fasal Bima Yojana (PMFBY)](https://pmfby.gov.in)*

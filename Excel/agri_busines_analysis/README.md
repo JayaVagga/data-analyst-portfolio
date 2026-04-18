@@ -336,6 +336,13 @@ agri-excel-dashboard/
 
 ---
 
+## Author
+
+**Vagga Jayalakshmi**  
+[LinkedIn](https://linkedin.com/in/vagga-jai-1206inn)
+
+---
+
 *Dataset: Self-created using structured business logic and domain knowledge from prior industry experience*
 *Domain: Agri-tech infrastructure, Protected cultivation, Indian farm services market*
 *Period: 2019–2025 | 5 States | 12 Districts | 14 Services | 480 Farmers | 3,000 Projects*

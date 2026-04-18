@@ -1,6 +1,6 @@
 # Section 10 — UPDATE and DELETE
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

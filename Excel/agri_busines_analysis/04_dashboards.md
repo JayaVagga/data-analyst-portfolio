@@ -1,6 +1,6 @@
 # Section 4 — Dashboards
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

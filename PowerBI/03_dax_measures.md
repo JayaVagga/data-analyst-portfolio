@@ -1,6 +1,6 @@
 # Section 3 — DAX Measures
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

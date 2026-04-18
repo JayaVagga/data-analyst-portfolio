@@ -1,6 +1,6 @@
 # Section 5 — Power BI Techniques Used
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

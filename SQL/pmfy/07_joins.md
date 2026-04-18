@@ -1,6 +1,6 @@
 # Section 7 — Joins
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

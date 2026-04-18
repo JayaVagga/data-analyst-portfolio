@@ -1,6 +1,6 @@
 # Section 9 — Data Integrity (Constraints & Foreign Keys)
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

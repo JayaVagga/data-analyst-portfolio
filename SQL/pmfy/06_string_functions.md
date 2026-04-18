@@ -1,6 +1,6 @@
 # Section 6 — String Functions
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

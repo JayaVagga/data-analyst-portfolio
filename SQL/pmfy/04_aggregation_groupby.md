@@ -1,6 +1,6 @@
 # Section 4 — Aggregation (GROUP BY)
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

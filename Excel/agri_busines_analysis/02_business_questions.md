@@ -1,6 +1,6 @@
 # Section 2 — Business Questions & Excel Analysis
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 

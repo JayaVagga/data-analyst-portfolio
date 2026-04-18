@@ -1,6 +1,6 @@
 # Section 2 — SELECT Queries
 
-[← Back to README](../README.md)
+[← Back to README](README.md)
 
 ---
 
