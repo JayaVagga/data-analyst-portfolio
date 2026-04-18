@@ -165,7 +165,7 @@ jupyter notebook Identifying_Key_Entities_in_Recipe_Data.ipynb
 ## Author
 
 **Vagga Jayalakshmi**  
-[GitHub](https://github.com/<your-username>) · [LinkedIn](https://linkedin.com/in/<your-profile>)
+[LinkedIn](https://linkedin.com/in/vagga-jai-1206inn)
 
 ---
 

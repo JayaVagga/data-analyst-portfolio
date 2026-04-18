@@ -173,5 +173,12 @@ Predictive models built on time, location, and environmental features can shift 
 
 ---
 
+## Author
+
+**Vagga Jayalakshmi**  
+[LinkedIn](https://linkedin.com/in/vagga-jai-1206inn)
+
+---
+
 *Dataset: [SWITRS — Statewide Integrated Traffic Records System](https://iswitrs.chp.ca.gov/)*
 *Processing: Apache PySpark 3.5 | Python 3.10*

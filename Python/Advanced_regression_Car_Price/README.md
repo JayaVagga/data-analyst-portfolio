@@ -87,12 +87,12 @@ RR_Car_Price_Prediction/
 ```
 Strongest Price Drivers (all models agree):
 
-🔻 Age              → #1 depreciation driver — older car = significantly lower price
-🔺 power_to_weight  → Performance efficiency matters more than raw engine size
-🔺 Brand / Model    → Premium brands resist depreciation; brand identity is structural
-🔻 km_per_year      → Usage intensity (not just total km) reflects true wear
-🔺 Comfort_count    → Equipment richness adds measurable resale value
-🔺 4WD / Automatic  → Drive configuration and transmission type command premiums
+Age              → #1 depreciation driver — older car = significantly lower price
+power_to_weight  → Performance efficiency matters more than raw engine size
+Brand / Model    → Premium brands resist depreciation; brand identity is structural
+km_per_year      → Usage intensity (not just total km) reflects true wear
+Comfort_count    → Equipment richness adds measurable resale value
+4WD / Automatic  → Drive configuration and transmission type command premiums
 ```
 
 ### What Did Regularisation Reveal?
@@ -145,7 +145,7 @@ jupyter notebook RR_Car_Price_Prediction.ipynb
 ## Author
 
 **Vagga Jayalakshmi**  
-[GitHub](https://github.com/<your-username>) · [LinkedIn](https://linkedin.com/in/<your-profile>)
+[LinkedIn](https://linkedin.com/in/vagga-jai-1206inn)
 
 ---
 

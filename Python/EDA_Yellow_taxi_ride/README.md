@@ -152,5 +152,12 @@ All three require no capital investment — only data-driven scheduling and poli
 
 ---
 
+## Author
+
+**Vagga Jayalakshmi**  
+[LinkedIn](https://linkedin.com/in/vagga-jai-1206inn)
+
+---
+
 *Dataset: [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)*
 *Geometry: [NYC TLC Taxi Zone Shapefile](https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc)*
