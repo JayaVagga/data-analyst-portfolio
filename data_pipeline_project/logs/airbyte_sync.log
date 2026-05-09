@@ -1,0 +1,22 @@
+[2026-05-09T04:54:29] Airbyte sync started: ecommerce_postgres -> warehouse
+[2026-05-09T04:54:29] Connection: ecommerce_postgres -> snowflake_warehouse (simulated)
+[2026-05-09T04:54:29] Sync mode: full_refresh | overwrite
+[2026-05-09T04:54:29] ------------------------------------------------------------
+[2026-05-09T04:54:29] Stream 'customers': starting extraction...
+[2026-05-09T04:54:29] Stream 'customers': extracted 250 records into _airbyte_raw_customers
+[2026-05-09T04:54:29] Stream 'products': starting extraction...
+[2026-05-09T04:54:29] Stream 'products': extracted 15 records into _airbyte_raw_products
+[2026-05-09T04:54:29] Stream 'orders': starting extraction...
+[2026-05-09T04:54:29] Stream 'orders': extracted 1,500 records into _airbyte_raw_orders
+[2026-05-09T04:54:29] Stream 'order_items': starting extraction...
+[2026-05-09T04:54:29] Stream 'order_items': extracted 2,606 records into _airbyte_raw_order_items
+[2026-05-09T04:54:29] ------------------------------------------------------------
+[2026-05-09T04:54:29] Raw extraction complete: 4,371 total records
+[2026-05-09T04:54:29] Starting Airbyte normalization (raw JSON -> typed columns)...
+[2026-05-09T04:54:29] Normalized stream 'customers': 250 rows -> airbyte_raw_customers
+[2026-05-09T04:54:29] Normalized stream 'products': 15 rows -> airbyte_raw_products
+[2026-05-09T04:54:29] Normalized stream 'orders': 1,500 rows -> airbyte_raw_orders
+[2026-05-09T04:54:29] Normalized stream 'order_items': 2,606 rows -> airbyte_raw_order_items
+[2026-05-09T04:54:29] ------------------------------------------------------------
+[2026-05-09T04:54:29] Airbyte sync completed successfully
+[2026-05-09T04:54:29] Warehouse DB: /home/claude/data_pipeline/03_warehouse/warehouse.db

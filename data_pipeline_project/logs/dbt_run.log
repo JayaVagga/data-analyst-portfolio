@@ -1,0 +1,38 @@
+[2026-05-09T04:54:29] Running dbt project: ecommerce_analytics
+[2026-05-09T04:54:29] Profile: warehouse | Target: prod
+[2026-05-09T04:54:29] ============================================================
+[2026-05-09T04:54:29] 
+[Layer: staging]
+[2026-05-09T04:54:29]   OK created staging.stg_customers                       [250 rows]
+[2026-05-09T04:54:29]   OK created staging.stg_products                        [15 rows]
+[2026-05-09T04:54:29]   OK created staging.stg_orders                          [1,500 rows]
+[2026-05-09T04:54:29]   OK created staging.stg_order_items                     [2,606 rows]
+[2026-05-09T04:54:29] 
+[Layer: intermediate]
+[2026-05-09T04:54:29]   OK created intermediate.int_order_items_enriched            [2,606 rows]
+[2026-05-09T04:54:29] 
+[Layer: marts]
+[2026-05-09T04:54:29]   OK created marts.fct_orders                          [1,500 rows]
+[2026-05-09T04:54:29]   OK created marts.dim_customers                       [250 rows]
+[2026-05-09T04:54:29]   OK created marts.agg_daily_revenue                   [350 rows]
+[2026-05-09T04:54:29]   OK created marts.agg_product_performance             [15 rows]
+[2026-05-09T04:54:29]   OK created marts.agg_country_revenue                 [10 rows]
+[2026-05-09T04:54:29] ============================================================
+[2026-05-09T04:54:29] Built 10 models
+[2026-05-09T04:54:29] 
+Running data tests...
+[2026-05-09T04:54:29] ------------------------------------------------------------
+[2026-05-09T04:54:29]   [PASS] not_null         stg_customers.customer_id 
+[2026-05-09T04:54:29]   [PASS] unique           stg_customers.customer_id 
+[2026-05-09T04:54:29]   [PASS] not_null         stg_products.product_id 
+[2026-05-09T04:54:29]   [PASS] unique           stg_products.product_id 
+[2026-05-09T04:54:29]   [PASS] not_null         stg_orders.order_id 
+[2026-05-09T04:54:29]   [PASS] unique           stg_orders.order_id 
+[2026-05-09T04:54:29]   [PASS] not_null         fct_orders.order_id 
+[2026-05-09T04:54:29]   [PASS] unique           fct_orders.order_id 
+[2026-05-09T04:54:29]   [PASS] relationships    fct_orders.customer_id->stg_customers.customer_id 
+[2026-05-09T04:54:29]   [PASS] accepted_values  stg_orders.order_status:completed,pending,cancelled,refunded 
+[2026-05-09T04:54:29]   [PASS] not_null         dim_customers.customer_id 
+[2026-05-09T04:54:29]   [PASS] not_null         agg_daily_revenue.order_date 
+[2026-05-09T04:54:29] ------------------------------------------------------------
+[2026-05-09T04:54:29] Tests: 12 passed, 0 failed
