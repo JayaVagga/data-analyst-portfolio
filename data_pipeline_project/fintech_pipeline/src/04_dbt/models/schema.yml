@@ -1,0 +1,72 @@
+version: 2
+
+# This is the dbt schema.yml that documents the models and declares
+# data tests. The runner script reads this file to execute tests.
+
+models:
+  - name: stg_customers
+    description: "Customer master, one row per customer."
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]
+      - name: kyc_status
+        tests:
+          - accepted_values:
+              values: ['verified', 'pending', 'rejected']
+      - name: risk_band
+        tests:
+          - accepted_values:
+              values: ['low', 'medium', 'high', 'critical']
+
+  - name: stg_accounts
+    description: "Account master, one row per account."
+    columns:
+      - name: account_id
+        tests: [not_null, unique]
+      - name: customer_id
+        tests:
+          - relationships:
+              to: stg_customers
+              field: customer_id
+
+  - name: stg_transactions
+    description: "Raw transaction stream."
+    columns:
+      - name: transaction_id
+        tests: [not_null, unique]
+      - name: txn_type
+        tests:
+          - accepted_values:
+              values: ['payment', 'deposit', 'withdrawal', 'transfer', 'fee']
+      - name: txn_status
+        tests:
+          - accepted_values:
+              values: ['completed', 'pending', 'failed', 'reversed']
+
+  - name: stg_loans
+    description: "Loan portfolio."
+    columns:
+      - name: loan_id
+        tests: [not_null, unique]
+      - name: loan_status
+        tests:
+          - accepted_values:
+              values: ['active', 'paid_off', 'defaulted', 'charged_off']
+
+  - name: stg_fraud_alerts
+    description: "Fraud detection events."
+    columns:
+      - name: alert_id
+        tests: [not_null, unique]
+
+  - name: fct_transactions
+    description: "Transaction fact table."
+    columns:
+      - name: transaction_id
+        tests: [not_null, unique]
+
+  - name: dim_customers
+    description: "Customer dimension with behavior features."
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]

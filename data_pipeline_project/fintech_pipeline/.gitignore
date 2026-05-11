@@ -1,0 +1,65 @@
+# Generated databases (recreated by run_pipeline.py)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Generated exports (recreated by export_for_bi.py)
+src/05_analytics/analytics_export.json
+
+# Pipeline logs (regenerated each run)
+logs/*.log
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Node (in case you use the dashboard locally)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnp.*
+
+# dbt (real dbt would generate these)
+target/
+dbt_packages/
+logs/dbt.log
+.user.yml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Secrets — never commit these
+.env
+.env.local
+*.pem
+profiles.yml
+secrets/

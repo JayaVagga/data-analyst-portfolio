@@ -1,0 +1,19 @@
+# The pipeline itself uses only Python stdlib (sqlite3, json, uuid, datetime).
+# This file is here for users who want to extend the project.
+
+# For a real dbt setup:
+# dbt-core>=1.7.0
+# dbt-postgres>=1.7.0    # or dbt-snowflake / dbt-bigquery / dbt-redshift
+
+# For an orchestrator:
+# apache-airflow>=2.7.0
+# # or
+# dagster>=1.5.0
+# # or
+# prefect>=2.14.0
+
+# For a real Airbyte CLI:
+# octavia-cli>=0.50.0
+
+# For data validation experiments:
+# great-expectations>=0.18.0
