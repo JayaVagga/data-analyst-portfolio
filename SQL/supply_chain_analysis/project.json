@@ -1,0 +1,14 @@
+{
+  "title": "Supply Chain Logistics Optimization",
+  "category": "SQL",
+  "visible": true,
+  "description": "End-to-end SQL project analyzing logistics orders, route costs, carrier choices, warehouse constraints, and optimization opportunities.",
+  "metric": "$58,062.17 avoidable freight spend found",
+  "tools": ["MySQL", "SQL", "Window Functions", "CTEs", "Cost Modeling"],
+  "insights": [
+    "Analyzed 15,398 logistics orders across plants, carriers, products, and destination ports.",
+    "Identified 6,368 overpaying orders and traced 95.3% of savings to one plant.",
+    "Used multi-condition route joins, window functions, CTEs, and optimization simulation queries."
+  ],
+  "status": "Complete"
+}

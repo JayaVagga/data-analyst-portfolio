@@ -1,0 +1,14 @@
+{
+  "title": "Fintech Data Pipeline",
+  "category": "Data Pipeline",
+  "visible": true,
+  "description": "End-to-end modern data stack demo moving digital banking data from source tables through Airbyte-style extraction, warehouse storage, dbt models, and BI output.",
+  "metric": "20/20 dbt tests passing",
+  "tools": ["Python", "SQLite", "Airbyte", "dbt", "SQL", "React"],
+  "insights": [
+    "Modeled customers, accounts, transactions, loans, and fraud alerts for a digital banking analytics platform.",
+    "Produced marts for transaction facts, customer dimensions, channel performance, fraud metrics, and loan portfolio health.",
+    "Generated $7.4M transaction volume, 376 active customers, and 24 confirmed fraud cases for analytics reporting."
+  ],
+  "status": "Complete"
+}

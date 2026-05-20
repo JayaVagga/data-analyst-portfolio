@@ -1,0 +1,14 @@
+{
+  "title": "California Traffic Collision Analysis",
+  "category": "Python",
+  "visible": true,
+  "description": "PySpark-based traffic safety analysis of California collision data covering severity, weather, lighting, geography, and time trends.",
+  "metric": "600K+ collision records processed",
+  "tools": ["Python", "PySpark", "Spark SQL", "Pandas", "Matplotlib", "Seaborn"],
+  "insights": [
+    "Found that traffic volume is the dominant driver of collision frequency, with clear weather present in 80%+ of incidents.",
+    "Identified Friday and 15:00-18:00 as high-risk time windows.",
+    "Showed that poor lighting acts as a severity multiplier even when it is not the main frequency driver."
+  ],
+  "status": "Complete"
+}

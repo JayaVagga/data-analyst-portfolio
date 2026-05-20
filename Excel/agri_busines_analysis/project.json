@@ -1,0 +1,14 @@
+{
+  "title": "Agri Business Analytics Dashboard",
+  "category": "Excel",
+  "visible": true,
+  "description": "Excel dashboard project analyzing agri-tech project investments, farmer segments, subsidy impact, geography, and operations across five Indian states.",
+  "metric": "3,000 projects and 480 farmers analyzed",
+  "tools": ["Excel", "Pivot Tables", "Pivot Charts", "Slicers", "Calculated Fields"],
+  "insights": [
+    "Built 4 interactive dashboards covering market, customer, financial, and operational performance.",
+    "Found medium farmers generate the highest revenue share despite being 36% of the customer base.",
+    "Quantified subsidy dependency, with government support covering nearly half of infrastructure project costs."
+  ],
+  "status": "Complete"
+}

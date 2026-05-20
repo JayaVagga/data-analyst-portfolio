@@ -1,0 +1,14 @@
+{
+  "title": "Used Car Price Prediction",
+  "category": "Python",
+  "visible": true,
+  "description": "Regularized regression project predicting used car resale prices with EDA, feature engineering, linear regression, Ridge, and Lasso models.",
+  "metric": "0.9217 test R2 score",
+  "tools": ["Python", "Pandas", "scikit-learn", "Ridge Regression", "Lasso Regression"],
+  "insights": [
+    "Analyzed 15,915 AutoScout24 listings across 23 original features.",
+    "Created 7 engineered features including km_per_year, power_to_weight, and engine_efficiency.",
+    "Compared Linear, Ridge, and Lasso models and found feature engineering drove most of the predictive lift."
+  ],
+  "status": "Complete"
+}

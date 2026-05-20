@@ -1,0 +1,14 @@
+{
+  "title": "Awesome Chocolates Sales Analytics",
+  "category": "Power BI",
+  "visible": true,
+  "description": "Interactive Power BI report for chocolate sales leadership covering revenue, profit, shipment efficiency, geography, products, and salesperson performance.",
+  "metric": "$34.04M total sales analyzed",
+  "tools": ["Power BI", "DAX", "Data Modeling", "Bookmarks", "Time Intelligence"],
+  "insights": [
+    "Built a 7-page Power BI report with 30 DAX measures and full month-over-month KPI tracking.",
+    "Analyzed 6,113 shipments across 6 countries, 22 products, and 25 salespeople.",
+    "Found balanced geography performance, with only a $400K gap between the highest and lowest country sales."
+  ],
+  "status": "Complete"
+}

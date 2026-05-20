@@ -1,0 +1,14 @@
+{
+  "title": "Recipe Ingredient Entity Extraction",
+  "category": "Python",
+  "visible": true,
+  "description": "NLP sequence labeling project using CRF to extract ingredients, quantities, and units from unstructured recipe text.",
+  "metric": "99.83% validation accuracy",
+  "tools": ["Python", "spaCy", "CRF", "sklearn-crfsuite", "NLP"],
+  "insights": [
+    "Built a token-level NER pipeline with 20+ linguistic, regex, keyword, and contextual features per token.",
+    "Handled class imbalance with inverse-frequency weighting and ingredient penalty tuning.",
+    "Achieved zero ingredient-token misclassifications on validation data."
+  ],
+  "status": "Complete"
+}

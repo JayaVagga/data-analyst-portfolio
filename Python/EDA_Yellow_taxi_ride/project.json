@@ -1,0 +1,14 @@
+{
+  "title": "NYC Yellow Taxi Demand Analysis",
+  "category": "Python",
+  "visible": true,
+  "description": "Exploratory analysis of 2023 NYC Yellow Taxi trips to optimize fleet deployment, pricing, zone positioning, and customer experience.",
+  "metric": "35 charts across 9 analysis areas",
+  "tools": ["Python", "Pandas", "NumPy", "GeoPandas", "Matplotlib", "Seaborn"],
+  "insights": [
+    "Identified 3 PM as the strongest demand hour and Friday as the busiest day.",
+    "Found trip distance to be the strongest fare predictor with correlation of 0.87.",
+    "Highlighted Midtown as the dominant pickup zone and night trips as high-value revenue contributors."
+  ],
+  "status": "Complete"
+}

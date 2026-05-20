@@ -1,0 +1,14 @@
+{
+  "title": "PMFBY Farmers Insurance Coverage Analysis",
+  "category": "SQL",
+  "visible": true,
+  "description": "District-level SQL analysis of India's PMFBY crop insurance data to measure farmer coverage, premium contribution splits, and regional coverage gaps.",
+  "metric": "1,800+ district-year records analyzed",
+  "tools": ["MySQL", "SQL", "Joins", "Subqueries", "Aggregations"],
+  "insights": [
+    "Built 26 SQL queries covering filtering, aggregation, joins, subqueries, constraints, and DML validation.",
+    "Added derived metrics including coverage rate, insured-to-premium ratio, and average premium per farmer.",
+    "Resolved blank and buggy starter queries with case-safe filters, unit-aware calculations, and joined aggregate logic."
+  ],
+  "status": "Complete"
+}
