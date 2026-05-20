@@ -3,12 +3,12 @@
   "category": "Python",
   "visible": true,
   "description": "NLP sequence labeling project using CRF to extract ingredients, quantities, and units from unstructured recipe text.",
-  "metric": "99.83% validation accuracy",
+  "metric": "99.83% validation accuracy, Processed 9,990 Annotated Tokens Across 280 Cleaned Recipe Records",
   "tools": ["Python", "spaCy", "CRF", "sklearn-crfsuite", "NLP"],
   "insights": [
-    "Built a token-level NER pipeline with 20+ linguistic, regex, keyword, and contextual features per token.",
-    "Handled class imbalance with inverse-frequency weighting and ingredient penalty tuning.",
-    "Achieved zero ingredient-token misclassifications on validation data."
+    "Ingredient Extraction Achieved 100% F1 Score with Zero Misclassifications",
+    "Class Imbalance Was the Primary NLP Modelling Challenge",
+    "Rich Feature Engineering Contributed More to Performance Than Model Complexity"
   ],
   "status": "Complete"
 }

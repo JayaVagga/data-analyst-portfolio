@@ -3,12 +3,12 @@
   "category": "SQL",
   "visible": true,
   "description": "District-level SQL analysis of India's PMFBY crop insurance data to measure farmer coverage, premium contribution splits, and regional coverage gaps.",
-  "metric": "1,800+ district-year records analyzed",
-  "tools": ["MySQL", "SQL", "Joins", "Subqueries", "Aggregations"],
+  "metric": "1,800+ district-year records analyzed, Built 26+ Advanced SQL Queries Across Multiple Concepts",
+  "tools": ["MySQL", "SQL", "Joins", "Subqueries", "Aggregations", "CTE", "Window Functions", "Constraints", "DML Operations (UPDATE, DELETE)", "Case when", "Date functions", "Unit conversions"],
   "insights": [
-    "Built 26 SQL queries covering filtering, aggregation, joins, subqueries, constraints, and DML validation.",
-    "Added derived metrics including coverage rate, insured-to-premium ratio, and average premium per farmer.",
-    "Resolved blank and buggy starter queries with case-safe filters, unit-aware calculations, and joined aggregate logic."
+    "Medium-Scale Farmers Contributed the Largest Share of Premium Volume",
+    "District-level analysis revealed uneven insurance penetration, with some districts showing substantially lower coverage rates despite similar agricultural activity.",
+    "Premium Collection and Insurance Coverage Were Not Uniformly Correlated Across Districts, Indicating Potential Gaps in Outreach or Affordability."
   ],
   "status": "Complete"
 }
