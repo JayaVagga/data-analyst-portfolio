@@ -1,0 +1,519 @@
+{
+ "kpi": [
+  {
+   "campaign": "jo_retarget_signup",
+   "channel": "josh",
+   "cost per install": 16.78,
+   "cost per trial": 114.74,
+   "trial\u2192paid %": 42.5,
+   "cost per paying user": 269.98,
+   "annual plan %": 35.73,
+   "net 1st-month ROAS": 2.52
+  },
+  {
+   "campaign": "jo_lookalike_5pct",
+   "channel": "josh",
+   "cost per install": 18.02,
+   "cost per trial": 178.43,
+   "trial\u2192paid %": 32.59,
+   "cost per paying user": 547.56,
+   "annual plan %": 25.43,
+   "net 1st-month ROAS": 1.02
+  },
+  {
+   "campaign": "gl_lockscreen_story",
+   "channel": "glance",
+   "cost per install": 8.31,
+   "cost per trial": 146.86,
+   "trial\u2192paid %": 23.32,
+   "cost per paying user": 629.67,
+   "annual plan %": 10.97,
+   "net 1st-month ROAS": 0.61
+  },
+  {
+   "campaign": "jo_interest_learners",
+   "channel": "josh",
+   "cost per install": 18.14,
+   "cost per trial": 197.96,
+   "trial\u2192paid %": 23.78,
+   "cost per paying user": 832.34,
+   "annual plan %": 14.4,
+   "net 1st-month ROAS": 0.51
+  },
+  {
+   "campaign": "im_cpi_optimised",
+   "channel": "inmobi",
+   "cost per install": 11.65,
+   "cost per trial": 200.07,
+   "trial\u2192paid %": 18.89,
+   "cost per paying user": 1059.07,
+   "annual plan %": 13.21,
+   "net 1st-month ROAS": 0.39
+  },
+  {
+   "campaign": "im_cpa_trial",
+   "channel": "inmobi",
+   "cost per install": 23.43,
+   "cost per trial": 117.11,
+   "trial\u2192paid %": 9.95,
+   "cost per paying user": 1177.22,
+   "annual plan %": 6.07,
+   "net 1st-month ROAS": 0.29
+  }
+ ],
+ "proposed": [
+  {
+   "campaign": "gl_lockscreen_story",
+   "channel": "glance",
+   "monthly spend": 1335763.65,
+   "share %": 13.36,
+   "expected trials": 8258.35,
+   "expected paying users": 1926.12,
+   "expected 1st-month net revenue": 740526.41,
+   "cost per paying user": 693.5
+  },
+  {
+   "campaign": "im_cpa_trial",
+   "channel": "inmobi",
+   "monthly spend": 1167244.55,
+   "share %": 11.67,
+   "expected trials": 10919.7,
+   "expected paying users": 1086.26,
+   "expected 1st-month net revenue": 365991.86,
+   "cost per paying user": 1074.56
+  },
+  {
+   "campaign": "im_cpi_optimised",
+   "channel": "inmobi",
+   "monthly spend": 2282744.99,
+   "share %": 22.83,
+   "expected trials": 11557.71,
+   "expected paying users": 2183.37,
+   "expected 1st-month net revenue": 903545.9,
+   "cost per paying user": 1045.51
+  },
+  {
+   "campaign": "jo_interest_learners",
+   "channel": "josh",
+   "monthly spend": 2309676.7,
+   "share %": 23.1,
+   "expected trials": 10757.5,
+   "expected paying users": 2558.5,
+   "expected 1st-month net revenue": 1090572.21,
+   "cost per paying user": 902.74
+  },
+  {
+   "campaign": "jo_lookalike_5pct",
+   "channel": "josh",
+   "monthly spend": 2332281.9,
+   "share %": 23.32,
+   "expected trials": 11536.67,
+   "expected paying users": 3759.46,
+   "expected 1st-month net revenue": 2098290.6,
+   "cost per paying user": 620.38
+  },
+  {
+   "campaign": "jo_retarget_signup",
+   "channel": "josh",
+   "monthly spend": 572288.21,
+   "share %": 5.72,
+   "expected trials": 4623.85,
+   "expected paying users": 1965.15,
+   "expected 1st-month net revenue": 1338889.79,
+   "cost per paying user": 291.22
+  }
+ ],
+ "current": [
+  {
+   "campaign": "gl_lockscreen_story",
+   "channel": "glance",
+   "monthly spend": 1074704.27,
+   "share %": 10.75,
+   "expected trials": 7029.02,
+   "expected paying users": 1639.4,
+   "expected 1st-month net revenue": 630292.21,
+   "cost per paying user": 655.55
+  },
+  {
+   "campaign": "im_cpa_trial",
+   "channel": "inmobi",
+   "monthly spend": 1942292.45,
+   "share %": 19.42,
+   "expected trials": 15926.75,
+   "expected paying users": 1584.34,
+   "expected 1st-month net revenue": 533811.59,
+   "cost per paying user": 1225.93
+  },
+  {
+   "campaign": "im_cpi_optimised",
+   "channel": "inmobi",
+   "monthly spend": 2821718.73,
+   "share %": 28.22,
+   "expected trials": 13523.94,
+   "expected paying users": 2554.81,
+   "expected 1st-month net revenue": 1057259.48,
+   "cost per paying user": 1104.47
+  },
+  {
+   "campaign": "jo_interest_learners",
+   "channel": "josh",
+   "monthly spend": 1973622.13,
+   "share %": 19.74,
+   "expected trials": 9574.09,
+   "expected paying users": 2277.05,
+   "expected 1st-month net revenue": 970600.57,
+   "cost per paying user": 866.75
+  },
+  {
+   "campaign": "jo_lookalike_5pct",
+   "channel": "josh",
+   "monthly spend": 1687386.98,
+   "share %": 16.87,
+   "expected trials": 9075.99,
+   "expected paying users": 2957.6,
+   "expected 1st-month net revenue": 1650741.4,
+   "cost per paying user": 570.53
+  },
+  {
+   "campaign": "jo_retarget_signup",
+   "channel": "josh",
+   "monthly spend": 500275.43,
+   "share %": 5.0,
+   "expected trials": 4185.18,
+   "expected paying users": 1778.71,
+   "expected 1st-month net revenue": 1211867.32,
+   "cost per paying user": 281.26
+  }
+ ],
+ "downside": [
+  {
+   "campaign": "gl_lockscreen_story",
+   "channel": "glance",
+   "monthly spend": 779527.28,
+   "share %": 12.99,
+   "expected trials": 5540.26,
+   "expected paying users": 1292.17,
+   "expected 1st-month net revenue": 496794.87,
+   "cost per paying user": 603.27
+  },
+  {
+   "campaign": "im_cpa_trial",
+   "channel": "inmobi",
+   "monthly spend": 0.0,
+   "share %": 0.0,
+   "expected trials": 0.0,
+   "expected paying users": 0.0,
+   "expected 1st-month net revenue": 0.0,
+   "cost per paying user": NaN
+  },
+  {
+   "campaign": "im_cpi_optimised",
+   "channel": "inmobi",
+   "monthly spend": 1515381.99,
+   "share %": 25.26,
+   "expected trials": 8530.76,
+   "expected paying users": 1611.55,
+   "expected 1st-month net revenue": 666908.25,
+   "cost per paying user": 940.33
+  },
+  {
+   "campaign": "jo_interest_learners",
+   "channel": "josh",
+   "monthly spend": 1039384.43,
+   "share %": 17.32,
+   "expected trials": 5952.3,
+   "expected paying users": 1415.66,
+   "expected 1st-month net revenue": 603431.16,
+   "cost per paying user": 734.2
+  },
+  {
+   "campaign": "jo_lookalike_5pct",
+   "channel": "josh",
+   "monthly spend": 2093418.09,
+   "share %": 34.89,
+   "expected trials": 10648.78,
+   "expected paying users": 3470.12,
+   "expected 1st-month net revenue": 1936801.75,
+   "cost per paying user": 603.27
+  },
+  {
+   "campaign": "jo_retarget_signup",
+   "channel": "josh",
+   "monthly spend": 572288.21,
+   "share %": 9.54,
+   "expected trials": 4623.85,
+   "expected paying users": 1965.15,
+   "expected 1st-month net revenue": 1338889.79,
+   "cost per paying user": 291.22
+  }
+ ],
+ "totals": [
+  {
+   "index": "monthly spend",
+   "today's split": 10000000.0,
+   "proposed": 10000000.0,
+   "change": -0.0,
+   "change %": -0.0
+  },
+  {
+   "index": "expected trials",
+   "today's split": 59314.96,
+   "proposed": 57653.78,
+   "change": -1661.18,
+   "change %": -2.8
+  },
+  {
+   "index": "expected paying users",
+   "today's split": 12791.91,
+   "proposed": 13478.86,
+   "change": 686.95,
+   "change %": 5.37
+  },
+  {
+   "index": "expected 1st-month net revenue",
+   "today's split": 6054572.56,
+   "proposed": 6537816.77,
+   "change": 483244.2,
+   "change %": 7.98
+  },
+  {
+   "index": "cost per paying user",
+   "today's split": 781.74,
+   "proposed": 741.9,
+   "change": -39.84,
+   "change %": -5.1
+  }
+ ],
+ "downside_totals": [
+  {
+   "index": "monthly spend",
+   "\u20b91 crore proposed": 10000000.0,
+   "\u20b960 lakh": 6000000.0,
+   "\u20b960L as % of \u20b91cr": 60.0
+  },
+  {
+   "index": "expected trials",
+   "\u20b91 crore proposed": 57653.78,
+   "\u20b960 lakh": 35295.95,
+   "\u20b960L as % of \u20b91cr": 61.22
+  },
+  {
+   "index": "expected paying users",
+   "\u20b91 crore proposed": 13478.86,
+   "\u20b960 lakh": 9754.65,
+   "\u20b960L as % of \u20b91cr": 72.37
+  },
+  {
+   "index": "expected 1st-month net revenue",
+   "\u20b91 crore proposed": 6537816.77,
+   "\u20b960 lakh": 5042825.82,
+   "\u20b960L as % of \u20b91cr": 77.13
+  },
+  {
+   "index": "cost per paying user",
+   "\u20b91 crore proposed": 741.9,
+   "\u20b960 lakh": 615.09,
+   "\u20b960L as % of \u20b91cr": 82.91
+  }
+ ],
+ "sensitivity": [
+  {
+   "index": "pessimistic, b = 0.55",
+   "today's split paying users": 12410.59,
+   "proposed paying users": 12856.21,
+   "gain %": 3.59,
+   "last paying user costs": 1863.17
+  },
+  {
+   "index": "shared fit, b = 0.74",
+   "today's split paying users": 12791.91,
+   "proposed paying users": 13478.86,
+   "gain %": 5.37,
+   "last paying user costs": 1410.58
+  },
+  {
+   "index": "optimistic, b = 0.90",
+   "today's split paying users": 13117.54,
+   "proposed paying users": 14043.6,
+   "gain %": 7.06,
+   "last paying user costs": 1170.9
+  }
+ ],
+ "weekend": [
+  {
+   "campaign": "jo_interest_learners",
+   "weekday": 855.04,
+   "weekend": 787.39,
+   "weekend vs weekday %": -7.91,
+   "channel": "josh"
+  },
+  {
+   "campaign": "jo_lookalike_5pct",
+   "weekday": 556.44,
+   "weekend": 529.94,
+   "weekend vs weekday %": -4.76,
+   "channel": "josh"
+  },
+  {
+   "campaign": "gl_lockscreen_story",
+   "weekday": 629.36,
+   "weekend": 630.35,
+   "weekend vs weekday %": 0.16,
+   "channel": "glance"
+  },
+  {
+   "campaign": "im_cpa_trial",
+   "weekday": 1124.39,
+   "weekend": 1312.26,
+   "weekend vs weekday %": 16.71,
+   "channel": "inmobi"
+  },
+  {
+   "campaign": "jo_retarget_signup",
+   "weekday": 253.28,
+   "weekend": 312.92,
+   "weekend vs weekday %": 23.55,
+   "channel": "josh"
+  },
+  {
+   "campaign": "im_cpi_optimised",
+   "weekday": 989.92,
+   "weekend": 1239.51,
+   "weekend vs weekday %": 25.21,
+   "channel": "inmobi"
+  }
+ ],
+ "elasticity": [
+  {
+   "index": "gl_lockscreen_story",
+   "b": 0.337,
+   "std error": 0.145
+  },
+  {
+   "index": "im_cpa_trial",
+   "b": 1.088,
+   "std error": 0.176
+  },
+  {
+   "index": "im_cpi_optimised",
+   "b": 0.659,
+   "std error": 0.127
+  },
+  {
+   "index": "jo_interest_learners",
+   "b": 0.887,
+   "std error": 0.161
+  },
+  {
+   "index": "jo_lookalike_5pct",
+   "b": 0.737,
+   "std error": 0.156
+  },
+  {
+   "index": "jo_retarget_signup",
+   "b": 0.866,
+   "std error": 0.222
+  }
+ ],
+ "b_shared": 0.7411915657389082,
+ "b_se": 0.06766032822277375,
+ "marginal": 1410.5842570166828,
+ "marginal_down": 813.9178358551123,
+ "sens_spend": [
+  {
+   "campaign": "gl_lockscreen_story",
+   "pessimistic, b = 0.55": 13.36,
+   "shared fit, b = 0.74": 13.36,
+   "optimistic, b = 0.90": 13.36
+  },
+  {
+   "campaign": "im_cpa_trial",
+   "pessimistic, b = 0.55": 12.2,
+   "shared fit, b = 0.74": 11.67,
+   "optimistic, b = 0.90": 11.67
+  },
+  {
+   "campaign": "im_cpi_optimised",
+   "pessimistic, b = 0.55": 22.3,
+   "shared fit, b = 0.74": 22.83,
+   "optimistic, b = 0.90": 22.83
+  },
+  {
+   "campaign": "jo_interest_learners",
+   "pessimistic, b = 0.55": 23.1,
+   "shared fit, b = 0.74": 23.1,
+   "optimistic, b = 0.90": 23.1
+  },
+  {
+   "campaign": "jo_lookalike_5pct",
+   "pessimistic, b = 0.55": 23.32,
+   "shared fit, b = 0.74": 23.32,
+   "optimistic, b = 0.90": 23.32
+  },
+  {
+   "campaign": "jo_retarget_signup",
+   "pessimistic, b = 0.55": 5.72,
+   "shared fit, b = 0.74": 5.72,
+   "optimistic, b = 0.90": 5.72
+  }
+ ],
+ "checks": [
+  {
+   "rule": "no negative values",
+   "rows failing": 0,
+   "result": "pass"
+  },
+  {
+   "rule": "impressions > clicks",
+   "rows failing": 0,
+   "result": "pass"
+  },
+  {
+   "rule": "clicks > installs",
+   "rows failing": 0,
+   "result": "pass"
+  },
+  {
+   "rule": "installs > trials",
+   "rows failing": 0,
+   "result": "pass"
+  },
+  {
+   "rule": "trials > renewals (same day)",
+   "rows failing": 0,
+   "result": "pass"
+  },
+  {
+   "rule": "annual renewals <= renewals",
+   "rows failing": 0,
+   "result": "pass"
+  },
+  {
+   "rule": "renewals <= previous day's trials",
+   "rows failing": 2,
+   "result": "FAIL"
+  },
+  {
+   "rule": "revenue = trials*2 + monthly*249 + annual*1,499",
+   "rows failing": 7,
+   "result": "FAIL"
+  },
+  {
+   "rule": "refunds < revenue",
+   "rows failing": 0,
+   "result": "pass"
+  },
+  {
+   "rule": "CPM within 1.6x of campaign median",
+   "rows failing": 1,
+   "result": "FAIL"
+  },
+  {
+   "rule": "campaign prefix matches channel",
+   "rows failing": 0,
+   "result": "pass"
+  }
+ ],
+ "gst_overstatement": 21676.86,
+ "dbl_excess": 74157.145
+}
