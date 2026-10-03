@@ -131,25 +131,6 @@ erDiagram
 - Cohort retention on 30-day windows
 - A decision with rupees attached, and what would prove it wrong
 
-## Repository
-```
-brief/tarang_pay_assignment.pdf     the take-home brief this project answers
-data/                               eight input files (the .gz files are read directly by pandas)
-notebooks/tarang_pay_analysis.ipynb the full solution, task by task
-reports/tarang_pay_memo.pdf         two-page memo: recommendation, evidence, caveats, investigation log, questions
-charts/                             five charts (all shown above)
-AI_USAGE.md                         Task 7: how I used AI, and what it got wrong
-src/                                scripts that build the brief and memo PDFs
-```
-
-## How to run
-```bash
-pip install -r requirements.txt
-cd notebooks
-jupyter nbconvert --to notebook --execute --inplace tarang_pay_analysis.ipynb
-cd ..
-python src/build_memo.py      # rebuilds the memo from the notebook's results
-```
 
 ## Caveats
 - The company, banks and data are fictional; the rules in the brief are treated as true.

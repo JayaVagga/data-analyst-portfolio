@@ -55,16 +55,6 @@ The full write-up is in [`reports/bolo_august_budget_plan.pdf`](reports/bolo_aug
 ## Main caveat
 The data shows only the first charge. The last paying user bought at ₹1 crore costs ₹1,411, against about ₹485 of first-month net revenue per paying user. Whether that's worth it depends on how many users keep paying after month one, which is the first thing I'd ask the product team for.
 
-## Repository
-```
-data/bolo_growth_data.csv             540 rows: 6 campaigns × 90 days (1 May – 29 July 2026)
-notebooks/bolo_growth_analysis.ipynb  the full analysis, top to bottom
-charts/                               every chart, written by the notebook
-reports/bolo_august_budget_plan.pdf   two-page recommendation
-reports/results.json                  numbers the report is built from
-src/build_report.py                   builds the PDF from results.json
-```
-
 ## Data
 The dataset is synthetic, created for this project to behave like real subscription-app acquisition data, including the data-quality problems. All amounts are in ₹, ex-GST.
 
