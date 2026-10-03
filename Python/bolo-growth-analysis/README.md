@@ -65,13 +65,6 @@ reports/results.json                  numbers the report is built from
 src/build_report.py                   builds the PDF from results.json
 ```
 
-## How to run
-```bash
-pip install -r requirements.txt
-cd notebooks && jupyter nbconvert --to notebook --execute --inplace bolo_growth_analysis.ipynb
-cd .. && python src/build_report.py
-```
-
 ## Data
 The dataset is synthetic, created for this project to behave like real subscription-app acquisition data, including the data-quality problems. All amounts are in ₹, ex-GST.
 
