@@ -7,9 +7,9 @@ A payments-operations investigation for a fictional Indian payment gateway: reco
 **Fix the Growth-plan card pricing now: 85 merchants have paid ₹0 on cards since 1 May, ₹1.69 lakh so far and about ₹42,000 more every month.**
 
 ## What this project is
-It has two halves, like a real take-home:
-1. **The assignment:** [`brief/tarang_pay_assignment.pdf`](brief/tarang_pay_assignment.pdf), a 4-page brief with the business rules, the data dictionary, seven timed tasks, one warned trap, and how the work is judged.
-2. **My solution:** the notebook, a two-page memo with an investigation log, the charts, and an honest note on how I used AI.
+It has two parts:
+1. **The project brief:** [`brief/project_brief.pdf`](brief/project_brief.pdf), with the business context, the business rules, the data dictionary, a six-part analysis plan and the quality standards the work aims for.
+2. **The analysis:** the notebook, a two-page memo with an investigation log, and the charts.
 
 The company, the banks and the data are fictional. The data was generated for this project, with problems planted in it on purpose.
 
@@ -131,9 +131,24 @@ erDiagram
 - Cohort retention on 30-day windows
 - A decision with rupees attached, and what would prove it wrong
 
+## Repository
+```
+brief/project_brief.pdf             business context, rules, data dictionary and analysis plan
+data/                               eight input files (the .gz files are read directly by pandas)
+notebooks/tarang_pay_analysis.ipynb the full analysis, part by part
+reports/tarang_pay_memo.pdf         two-page memo: recommendation, evidence, caveats, investigation log, questions
+charts/                             five charts (all shown above)
+```
+
+## How to run
+```bash
+pip install pandas numpy matplotlib jupyter
+cd notebooks
+jupyter nbconvert --to notebook --execute --inplace tarang_pay_analysis.ipynb
+```
 
 ## Caveats
-- The company, banks and data are fictional; the rules in the brief are treated as true.
+- The company, banks and data are fictional; the rules in the project brief are treated as true.
 - "Potential leakage" stays potential until it's confirmed what the 85 merchants were promised.
 - August refunds are incomplete: refunds can arrive up to 90 days after a payment.
 - The retention link rests on 109 merchants and doesn't prove cause.
